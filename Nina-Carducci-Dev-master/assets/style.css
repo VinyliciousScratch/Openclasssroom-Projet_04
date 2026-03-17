@@ -61,6 +61,7 @@ body {
 	z-index: -1;
 }
 
+
 .picture {
 	flex: 1;
 	margin: 0 20px;
@@ -83,7 +84,10 @@ body {
 	font-family: 'Spectral';
 	font-weight: 800;
 	font-style: italic;
-	width: 60%;
+	line-height:1.2 ;
+	font-size: 16px !important;
+	width: 60% !important;
+	margin: 0.5em 0;
 }
 #about-me p {
 	width: 80%;
@@ -106,6 +110,7 @@ body {
 	border-radius:0 ;
 }
 .nav-pills .nav-link {
+	cursor: pointer;
 	color: #000
 }
 .item-column {
@@ -147,13 +152,15 @@ body {
 	font-family: Spectral;
 	font-style: italic;
 	font-weight: 300;
-
+	font-size: 2.5em;
+	line-height: 1.2;
 }
 .quote__author {
 	font-family: Spectral;
 	font-weight: 800;
 	font-size: 22px;
 }
+
 
 #services {
 	margin: auto;
@@ -215,6 +222,13 @@ body {
 	flex : 2;
 
 }
+
+.form-container h2 {
+	font-size: 28px;
+
+}
+
+
 form {
 	display: flex;
 	flex-direction: column;
@@ -293,6 +307,8 @@ input[type="submit"] {
 	.service__description{
 		margin-bottom: 1em;
 	}
+
+
 
 	#services .container::before{
 		width: 30%;
